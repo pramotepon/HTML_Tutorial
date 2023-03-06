@@ -82,12 +82,15 @@
       <!-- End Navbar -->
       <!-- Sidebar -->
       <aside id="sidebar" class="bg-dark">
+        <!-- Sidebar Relative Block -->
         <div class="position-relative">
+          <!-- Button toggle Burger And Close -->
           <button
             id="btn-sidebar"
             class="bg-dark text-light"
             onclick="sidebarToggle()"
           >
+          <!-- Burger Button SVG -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -102,6 +105,7 @@
                 d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
               />
             </svg>
+            <!-- Close Button SVG -->
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -116,17 +120,22 @@
               />
             </svg>
           </button>
+          <!-- Sidebar Menu  -->
           <ul class="text-light">
+            <!-- Sidebar Menu list -->
             <li><a href="#" class="text-light">What's HTML</a></li>
             <li><a href="#" class="text-light">Starter HTML</a></li>
           </ul>
+          <!-- End Sidebar Menu  -->
         </div>
+        <!-- End Sidebar Relative Block -->
       </aside>
       <!-- End Sidebar -->
     </header>
     <!-- End Header -->
     <!-- Main -->
     <main>
+      <!-- Article Container Block -->
       <article class="container">
         <h1 class="text-center">What's HTML</h1>
         <p style="text-indent: 2.5em">
@@ -135,7 +144,7 @@
           Tag) เพื่อควบคุมการแสดงผลข้อมูล รูปภาพ และวัตถุอื่นๆ ผ่านทาง Web
           Browser
         </p>
-        <h1 class="text-center">HTML 5.0</h1>
+        <h2 class="text-center">HTML 5.0</h2>
         <p style="text-indent: 2.5em">
           มาตรฐานชองภาษา HTML มีการจัดโครงสร้างและการแสดงผลของเนื้อหาสำหรับ www
           มาตรฐานใหม่จะมีคุณลักษณะเด่นที่สำคัญเช่น
@@ -147,8 +156,29 @@
           <li>แสดงกราฟฟิก รูปภาพ</li>
           <li>การป้อนข้อมูลแบบใหม่ เช่น search, number, range etc.</li>
         </ul>
+        <h2 class="text-center">DOCTYPE</h2>
+        <p style="text-indent: 2.5em">
+          การประกาศว่าเว็บเพจที่สร้างมาอิงตามมาตรฐานใด
+        </p>
+        <h2 class="text-center">HTML5</h2>
+        <textarea name="" id="" class="form-control" readonly>
+<!DOCTYPE html>
+                  </textarea
+        >
+        <h2 class="text-center">HTML 4.01</h2>
+        <textarea name="" id="" class="form-control" readonly>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+                  </textarea
+        >
+        <h2 class="text-center">XHTML 1.1</h2>
+        <textarea name="" id="" class="form-control" readonly>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN">
+                  </textarea
+        >
       </article>
+      <!-- End Article Container Block -->
     </main>
+    <!-- End Main -->
     <!-- Footer -->
     <footer></footer>
   </body>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Tutotial</title>
+    <!-- Import Bootstrap From Local -->
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css" />
+    <!-- Bootstrap JS -->
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- End Import Bootstrap From Local -->
+
+    <!-- Import Style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <!-- Import Index.js -->
+    <script src="../assets/js/index.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-md navbar-dark bg-dark"
+        aria-label="Fourth navbar example"
+      >
+        <!-- Navbar Content Block -->
+        <div class="container-fluid">
+          <!-- Brand -->
+          <a class="navbar-brand" href="#">Me Learning</a>
+          <!-- Responsive Burger bar -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample04"
+            aria-controls="navbarsExample04"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- Icon Burger Bar -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Menu -->
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <!-- Ul Menu -->
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <!-- Menu Home -->
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <!-- Menu Dropdown Class -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Class</a
+                >
+                <!-- Menu List Class -->
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li>
+                    <a class="dropdown-item" href="./class_html.html">HTML</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- End Menu -->
+        </div>
+        <!-- End Navbar Content Block -->
+      </nav>
+      <!-- End Navbar -->
+      <!-- Sidebar -->
+      <aside id="sidebar" class="bg-dark">
+        <!-- Sidebar Relative Block -->
+        <div class="position-relative">
+          <!-- Button toggle Burger And Close -->
+          <button
+            id="btn-sidebar"
+            class="bg-dark text-light"
+            onclick="sidebarToggle()"
+          >
+            <!-- Burger Button SVG -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              id="burger-bar"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+            <!-- Close Button SVG -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              id="cross-bar"
+              class="bi bi-x-lg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"
+              />
+            </svg>
+          </button>
+          <!-- Sidebar Menu  -->
+          <ul class="text-light">
+            <!-- Sidebar Menu list -->
+            <li><a href="#" class="text-light">Introduction: JavaScript Syntax, Part I</a></li>
+          </ul>
+          <!-- End Sidebar Menu  -->
+        </div>
+        <!-- End Sidebar Relative Block -->
+      </aside>
+      <!-- End Sidebar -->
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main>
+      <h1>What is JavaScript?</h1>
+      <h2>Console</h2>
+    </main>
+    <!-- End Main -->
+    <!-- Footer -->
+    <footer></footer>
+  </body>
+</html>
